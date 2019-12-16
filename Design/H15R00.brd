@@ -1478,8 +1478,11 @@ design rules under a new name.</description>
 <attribute name="APPLICATION_BUILDNUMBER" value="*" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
 <attribute name="COMPTYPE" value="IC" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="Texas Instruments" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
 <attribute name="MOUNTTYPE" value="SMT" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="OPA188AIDBVR" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.7444" y="31.496" size="1.016" layer="25" rot="SR0"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/opa188aidbvr-texas+instruments-27810397?r=sp&amp;s=zwpAzK6tSwu39ID1-8lLKg" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGEREFERENCE" value="DBV0005A" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNUMBER" value="OPA188AIDBVR" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
 <attribute name="PIN_COUNT" value="5" x="39.243" y="34.417" size="1.778" layer="27" display="off"/>
@@ -1610,7 +1613,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="ERA-3AEB1242V" x="40.513" y="30.861" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="38.493190625" y="30.94939375" size="1.016" layer="25" rot="R270"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/era-3aeb1242v-panasonic-55639351?r=sp&amp;s=K0xQjqOwSGaT1tqbXnh0hg" x="40.513" y="30.861" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="12.4 Ohm" x="40.513" y="30.861" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RESISTANCE" value="12.4 kOhm" x="40.513" y="30.861" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="0.1%" x="40.513" y="30.861" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.622984375" y="32.398971875" size="1.016" layer="27" rot="R270"/>
 </element>
@@ -1711,9 +1714,6 @@ design rules under a new name.</description>
 <via x="49.276" y="32.766" extent="1-16" drill="0.35"/>
 <wire x1="31.8702" y1="31.17019375" x2="30.44035625" y2="29.74035" width="0.254" layer="16"/>
 <wire x1="30.44035625" y1="29.74035" x2="30.274375" y2="29.74035" width="0.254" layer="16"/>
-<wire x1="30.274375" y1="29.74035" x2="29.638284375" y2="30.376440625" width="0.6096" layer="16"/>
-<wire x1="29.638284375" y1="30.376440625" x2="29.638284375" y2="32.022790625" width="0.6096" layer="16"/>
-<wire x1="28.276303125" y1="38.253853125" x2="29.8359" y2="38.253853125" width="0.6096" layer="16"/>
 <wire x1="29.8359" y1="38.253853125" x2="30.3095625" y2="38.727515625" width="0.6096" layer="16"/>
 <wire x1="31.17019375" y1="37.3702" x2="30.719553125" y2="37.3702" width="0.254" layer="16"/>
 <wire x1="30.719553125" y1="37.3702" x2="29.8359" y2="38.253853125" width="0.254" layer="16"/>
@@ -1722,8 +1722,14 @@ design rules under a new name.</description>
 <wire x1="38.900865625" y1="39.512378125" x2="40.7904875" y2="41.402" width="0.6096" layer="16"/>
 <wire x1="40.7904875" y1="41.402" x2="43.18" y2="41.402" width="0.6096" layer="16"/>
 <via x="43.18" y="41.402" extent="1-16" drill="0.35"/>
-<wire x1="29.464" y1="38.227" x2="29.8359" y2="38.253853125" width="0" layer="19" extent="16-16"/>
-<wire x1="29.638284375" y1="30.376440625" x2="29.591" y2="30.734" width="0" layer="19" extent="16-16"/>
+<wire x1="30.3095625" y1="38.727515625" x2="29.809046875" y2="38.227" width="0.6096" layer="16"/>
+<wire x1="29.809046875" y1="38.227" x2="29.464" y2="38.227" width="0.6096" layer="16"/>
+<wire x1="29.464" y1="38.227" x2="28.30315625" y2="38.227" width="0.6096" layer="16"/>
+<wire x1="28.30315625" y1="38.227" x2="28.276303125" y2="38.253853125" width="0.6096" layer="16"/>
+<wire x1="29.591" y1="30.734" x2="29.591" y2="30.423725" width="0.6096" layer="16"/>
+<wire x1="29.591" y1="30.423725" x2="30.274375" y2="29.74035" width="0.6096" layer="16"/>
+<wire x1="29.591" y1="30.734" x2="29.591" y2="31.97550625" width="0.6096" layer="16"/>
+<wire x1="29.591" y1="31.97550625" x2="29.638284375" y2="32.022790625" width="0.6096" layer="16"/>
 </signal>
 <signal name="UART3_TX">
 <contactref element="U1" pad="P$21"/>
@@ -1969,12 +1975,14 @@ design rules under a new name.</description>
 <wire x1="40.618" y1="35.367" x2="40.618" y2="36.466" width="0.6096" layer="1"/>
 <wire x1="40.618" y1="36.466" x2="41.021" y2="36.869" width="0.6096" layer="1"/>
 <wire x1="41.021" y1="36.869" x2="43.053" y2="36.869" width="0.6096" layer="1"/>
-<wire x1="38.171" y1="23.141" x2="45.847" y2="30.817" width="0.6096" layer="1"/>
-<wire x1="45.847" y1="30.817" x2="45.847" y2="32.385" width="0.6096" layer="1"/>
+<wire x1="45.847" y1="32.385" x2="45.847" y2="30.817" width="0.6096" layer="1"/>
 <wire x1="45.847" y1="32.385" x2="43.561" y2="34.671" width="0.6096" layer="1"/>
 <wire x1="43.053" y1="36.869" x2="43.561" y2="36.361" width="0.6096" layer="1"/>
 <wire x1="43.561" y1="36.361" x2="43.561" y2="34.671" width="0.6096" layer="1"/>
-<wire x1="38.171" y1="23.141" x2="41.876040625" y2="26.95795625" width="0" layer="19" extent="1-1"/>
+<wire x1="45.847" y1="30.817" x2="41.98795625" y2="26.95795625" width="0.6096" layer="1"/>
+<wire x1="41.98795625" y1="26.95795625" x2="41.876040625" y2="26.95795625" width="0.6096" layer="1"/>
+<wire x1="41.876040625" y1="26.95795625" x2="38.171" y2="23.252915625" width="0.6096" layer="1"/>
+<wire x1="38.171" y1="23.252915625" x2="38.171" y2="23.141" width="0.6096" layer="1"/>
 </signal>
 <signal name="-15V">
 <contactref element="PWR" pad="1"/>
@@ -2051,6 +2059,42 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,ae0f330ad37c9db3"/>
+<approved hash="4,1,0fab4e649b984e50"/>
+<approved hash="4,1,6c0e35242b150960"/>
+<approved hash="4,1,2c085d052e88f64e"/>
+<approved hash="4,1,731eeb01593ec31b"/>
+<approved hash="4,1,17b23f2f73d51f7e"/>
+<approved hash="4,1,f8790e9421771b3e"/>
+<approved hash="4,1,af6063fbfa34c8b2"/>
+<approved hash="4,1,9d2ff0d68aab4c9e"/>
+<approved hash="4,1,57d1ad7b46046f99"/>
+<approved hash="4,1,dd74c770689d03d7"/>
+<approved hash="4,1,6b81ddf0fc83b358"/>
+<approved hash="4,1,6446648068a09f84"/>
+<approved hash="4,1,c8ccaacd3941d417"/>
+<approved hash="4,1,b74b077da49c13bb"/>
+<approved hash="4,1,4b617a6c2b97797e"/>
+<approved hash="4,16,dd74c770689d03d7"/>
+<approved hash="4,16,ae0f330ad37c9db3"/>
+<approved hash="4,16,6c0e35242b150960"/>
+<approved hash="4,16,2c085d052e88f64e"/>
+<approved hash="4,16,6b81ddf0fc83b358"/>
+<approved hash="4,16,6446648068a09f84"/>
+<approved hash="4,16,c8ccaacd3941d417"/>
+<approved hash="4,16,b74b077da49c13bb"/>
+<approved hash="4,16,9d2ff0d68aab4c9e"/>
+<approved hash="4,16,0fab4e649b984e50"/>
+<approved hash="4,16,731eeb01593ec31b"/>
+<approved hash="4,16,17b23f2f73d51f7e"/>
+<approved hash="4,16,f8790e9421771b3e"/>
+<approved hash="4,16,af6063fbfa34c8b2"/>
+<approved hash="4,16,57d1ad7b46046f99"/>
+<approved hash="4,16,4b617a6c2b97797e"/>
+<approved hash="7,39,6a1faac02ac1ea1e"/>
+<approved hash="7,39,43d203128312c3d2"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

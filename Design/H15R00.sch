@@ -993,7 +993,10 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="APPLICATION_BUILDNUMBER" value="*" constant="no"/>
 <attribute name="COMPTYPE" value="IC" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MFN" value="Texas Instruments" constant="no"/>
 <attribute name="MOUNTTYPE" value="SMT" constant="no"/>
+<attribute name="MPN" value="OPA188AIDBVR" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/opa188aidbvr-texas+instruments-27810397?r=sp&amp;s=zwpAzK6tSwu39ID1-8lLKg" constant="no"/>
 <attribute name="PACKAGEREFERENCE" value="DBV0005A" constant="no"/>
 <attribute name="PARTNUMBER" value="OPA188AIDBVR" constant="no"/>
 <attribute name="PIN_COUNT" value="5" constant="no"/>
@@ -1978,7 +1981,7 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <attribute name="MFN" value="Panasonic"/>
 <attribute name="MPN" value="ERA-3AEB1242V"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/era-3aeb1242v-panasonic-55639351?r=sp&amp;s=K0xQjqOwSGaT1tqbXnh0hg"/>
-<attribute name="RESISTANCE" value="12.4 Ohm"/>
+<attribute name="RESISTANCE" value="12.4 kOhm"/>
 <attribute name="TOLERANCE" value="0.1%"/>
 </part>
 <part name="SUPPLY17" library="supply2" deviceset="AGND" device="" value="VSSA"/>
