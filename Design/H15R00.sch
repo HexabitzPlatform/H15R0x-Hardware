@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -347,12 +347,9 @@
 <wire x1="-0.8128" y1="1.3716" x2="-0.7366" y2="1.4478" width="0.1524" layer="51" curve="-88"/>
 <wire x1="0.7874" y1="-1.397" x2="0.7112" y2="-1.4732" width="0.1524" layer="51" curve="-88"/>
 <wire x1="-0.7366" y1="-1.4732" x2="-0.8128" y2="-1.397" width="0.1524" layer="51" curve="-88"/>
-<text x="-0.889" y="0.9398" size="1.27" layer="51" ratio="6" rot="SR270">.Designator</text>
 <wire x1="-0.4064" y1="-1.5494" x2="0.381" y2="-1.5494" width="0.2032" layer="21"/>
-<wire x1="-1.6256" y1="1.5494" x2="0.3556" y2="1.5494" width="0.2032" layer="21"/>
-<text x="-1.9558" y="2.2098" size="1.27" layer="21" ratio="6" rot="SR0">Designator9</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<wire x1="-0.9906" y1="1.5494" x2="0.9906" y2="1.5494" width="0.2032" layer="21"/>
+<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="DBV0005A_M">
 <smd name="1" x="-1.475" y="0.95" dx="0.65" dy="1.2" layer="1" rot="R90"/>
@@ -4636,6 +4633,11 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="191.77" y1="170.18" x2="205.74" y2="170.18" width="0.1524" layer="91"/>
 <label x="191.77" y="170.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SU1"/>
+<wire x1="68.58" y1="172.72" x2="82.55" y2="172.72" width="0.1524" layer="91"/>
+<label x="69.85" y="172.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART5_RX" class="0">
 <segment>
@@ -4643,12 +4645,21 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="191.77" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
 <label x="191.77" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SD1"/>
+<wire x1="68.58" y1="137.16" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
+<label x="69.85" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART3_TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB10"/>
 <wire x1="191.77" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <label x="191.77" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SU4"/>
+<wire x1="68.58" y1="157.48" x2="82.55" y2="157.48" width="0.1524" layer="91"/>
 <label x="69.85" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4657,6 +4668,10 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="135.89" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
 <label x="121.92" y="154.94" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PA9"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SU5"/>
+<wire x1="68.58" y1="152.4" x2="82.55" y2="152.4" width="0.1524" layer="91"/>
 <label x="69.85" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4665,6 +4680,10 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <pinref part="U1" gate="G$1" pin="PB11"/>
 <wire x1="191.77" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
 <label x="191.77" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SD4"/>
+<wire x1="68.58" y1="121.92" x2="82.55" y2="121.92" width="0.1524" layer="91"/>
 <label x="69.85" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4673,6 +4692,10 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="135.89" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <label x="121.92" y="152.4" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PA10"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SD5"/>
+<wire x1="68.58" y1="116.84" x2="82.55" y2="116.84" width="0.1524" layer="91"/>
 <label x="69.85" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4776,6 +4799,10 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <pinref part="U1" gate="G$1" pin="PA2"/>
 <wire x1="135.89" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <label x="121.92" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SU2"/>
+<wire x1="68.58" y1="167.64" x2="82.55" y2="167.64" width="0.1524" layer="91"/>
 <label x="69.85" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4784,6 +4811,10 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <pinref part="U1" gate="G$1" pin="PA3"/>
 <wire x1="135.89" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
 <label x="121.92" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SD2"/>
+<wire x1="68.58" y1="132.08" x2="82.55" y2="132.08" width="0.1524" layer="91"/>
 <label x="69.85" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4792,7 +4823,6 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <pinref part="U1" gate="G$1" pin="PA0"/>
 <wire x1="135.89" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
 <label x="121.92" y="177.8" size="1.778" layer="95"/>
-<label x="69.85" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART4_RX" class="0">
@@ -4800,7 +4830,6 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <pinref part="U1" gate="G$1" pin="PA1"/>
 <wire x1="135.89" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
 <label x="121.92" y="175.26" size="1.778" layer="95"/>
-<label x="69.85" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -4819,59 +4848,11 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="132.08" y1="140.97" x2="129.54" y2="140.97" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SU1"/>
-<wire x1="68.58" y1="172.72" x2="82.55" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SU2"/>
-<wire x1="68.58" y1="167.64" x2="82.55" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SU4"/>
-<wire x1="68.58" y1="157.48" x2="82.55" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SD1"/>
-<wire x1="68.58" y1="137.16" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SD2"/>
-<wire x1="68.58" y1="132.08" x2="82.55" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SD4"/>
-<wire x1="68.58" y1="121.92" x2="82.55" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DAC_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA4"/>
 <wire x1="135.89" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <label x="121.92" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SD5"/>
-<wire x1="68.58" y1="116.84" x2="82.55" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SU5"/>
-<wire x1="68.58" y1="152.4" x2="82.55" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -13227,8 +13208,8 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <instance part="SUPPLY15" gate="G$1" x="195.58" y="73.66" smashed="yes">
 <attribute name="VALUE" x="198.247" y="71.755" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="53.34" y="134.62" smashed="yes" rot="R90">
-<attribute name="VALUE" x="55.245" y="137.287" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY16" gate="G$1" x="57.15" y="134.62" smashed="yes" rot="R90">
+<attribute name="VALUE" x="59.055" y="137.287" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C11" gate="G$1" x="195.58" y="85.09" smashed="yes">
 <attribute name="NAME" x="197.104" y="88.011" size="1.778" layer="95"/>
@@ -13341,11 +13322,21 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="208.28" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
 <junction x="195.58" y="78.74"/>
 </segment>
-</net>
-<net name="AGND" class="0">
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="SUPPLY20" gate="G$1" pin="AGND"/>
+<wire x1="193.04" y1="124.46" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="AO" gate="-2" pin="K"/>
+<wire x1="193.04" y1="119.38" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="128.27" x2="213.36" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="128.27" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
+<junction x="193.04" y="119.38"/>
+</segment>
 <segment>
 <pinref part="PWR" gate="-2" pin="K"/>
 <pinref part="SUPPLY16" gate="G$1" pin="AGND"/>
+<wire x1="54.61" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -13366,17 +13357,6 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="SUPPLY18" gate="G$1" pin="AGND"/>
 <wire x1="100.33" y1="82.55" x2="100.33" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="SUPPLY20" gate="G$1" pin="AGND"/>
-<wire x1="193.04" y1="124.46" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="AO" gate="-2" pin="K"/>
-<wire x1="193.04" y1="119.38" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="128.27" x2="213.36" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="128.27" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
-<junction x="193.04" y="119.38"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -13452,11 +13432,14 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <segment>
 <pinref part="AO" gate="-1" pin="K"/>
 <wire x1="223.52" y1="136.525" x2="193.04" y2="136.525" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="136.525" x2="177.8" y2="136.525" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="132.08" x2="193.04" y2="136.525" width="0.1524" layer="91"/>
 <junction x="193.04" y="136.525"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="182.245" x2="193.04" y2="182.245" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="182.245" x2="193.04" y2="136.525" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="132.08" x2="193.04" y2="136.525" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -13489,14 +13472,7 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="123.19" y1="165.1" x2="138.43" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="182.245" x2="193.04" y2="182.245" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="182.245" x2="193.04" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VCC" class="0">
+<net name="VDDA" class="0">
 <segment>
 <pinref part="SUPPLY21" gate="G$1" pin="VCC"/>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -13507,6 +13483,44 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,128.27,111.76,VCC,VDDA,,,,"/>
+<approved hash="102,1,120.65,85.09,VCC,VDDA,,,,"/>
+<approved hash="102,1,142.24,54.61,VCC,VDDA,,,,"/>
+<approved hash="102,1,200.66,109.22,AGND,VSSA,,,,"/>
+<approved hash="102,1,120.65,72.39,AGND,VSSA,,,,"/>
+<approved hash="102,1,193.04,54.61,AGND,VSSA,,,,"/>
+<approved hash="102,2,195.58,76.2,AGND,VSSA,,,,"/>
+<approved hash="102,2,85.09,167.64,VCC,VDDA,,,,"/>
+<approved hash="201,2,195.58,76.2,AGND,VSSA\, AGND,,,,"/>
+<approved hash="104,1,135.89,119.38,U1,VBAT,VDD,,,"/>
+<approved hash="104,1,135.89,116.84,U1,VDD_0,VDD,,,"/>
+<approved hash="104,1,135.89,114.3,U1,VDD_1,VDD,,,"/>
+<approved hash="104,1,135.89,109.22,U1,VDDIO2,VDD,,,"/>
+<approved hash="104,1,191.77,119.38,U1,EP,GND,,,"/>
+<approved hash="104,1,191.77,116.84,U1,VSS_0,GND,,,"/>
+<approved hash="104,1,191.77,114.3,U1,VSS_1,GND,,,"/>
+<approved hash="104,1,191.77,111.76,U1,VSS_2,GND,,,"/>
+<approved hash="104,1,191.77,109.22,U1,VSS_A,VSSA,,,"/>
+<approved hash="104,1,40.64,172.72,P1,VDD1,VDD,,,"/>
+<approved hash="104,1,40.64,167.64,P1,VDD2,VDD,,,"/>
+<approved hash="104,1,40.64,162.56,P1,VDD3,VDD,,,"/>
+<approved hash="104,1,40.64,157.48,P1,VDD4,VDD,,,"/>
+<approved hash="104,1,40.64,152.4,P1,VDD5,VDD,,,"/>
+<approved hash="104,1,40.64,147.32,P1,VDD6,VDD,,,"/>
+<approved hash="104,1,40.64,137.16,P1,GND1,GND,,,"/>
+<approved hash="104,1,40.64,132.08,P1,GND2,GND,,,"/>
+<approved hash="104,1,40.64,127,P1,GND3,GND,,,"/>
+<approved hash="104,1,40.64,121.92,P1,GND4,GND,,,"/>
+<approved hash="104,1,40.64,116.84,P1,GND5,GND,,,"/>
+<approved hash="104,1,40.64,111.76,P1,GND6,GND,,,"/>
+<approved hash="104,2,139.7,126.314,U2,V-,-15V,,,"/>
+<approved hash="104,2,139.7,146.634,U2,V+,+15V,,,"/>
+<approved hash="106,2,147.32,182.245,N$10,,,,,"/>
+<approved hash="106,1,191.77,167.64,UART5_RX,,,,,"/>
+<approved hash="106,1,191.77,170.18,UART5_TX,,,,,"/>
+<approved hash="111,1,198.12,132.08,N$6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
