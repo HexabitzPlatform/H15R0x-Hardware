@@ -604,6 +604,54 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pin name="VSS_A" x="27.94" y="-35.56" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <text x="-22.86" y="40.64" size="1.27" layer="95">&gt;NAME</text>
 <text x="-22.86" y="38.1" size="1.27" layer="95">&gt;VALUE</text>
+<text x="-26.035" y="33.655" size="1.27" layer="97">10</text>
+<text x="-26.035" y="31.115" size="1.27" layer="97">11</text>
+<text x="-26.035" y="28.575" size="1.27" layer="97">12</text>
+<text x="-26.035" y="26.035" size="1.27" layer="97">13</text>
+<text x="-26.035" y="23.495" size="1.27" layer="97">14</text>
+<text x="-26.035" y="20.955" size="1.27" layer="97">15</text>
+<text x="-26.035" y="18.415" size="1.27" layer="97">16</text>
+<text x="-26.035" y="15.875" size="1.27" layer="97">17</text>
+<text x="24.13" y="33.655" size="1.27" layer="97">18</text>
+<text x="24.13" y="31.115" size="1.27" layer="97">19</text>
+<text x="24.13" y="28.575" size="1.27" layer="97">20</text>
+<text x="24.13" y="26.035" size="1.27" layer="97">39</text>
+<text x="24.13" y="23.495" size="1.27" layer="97">40</text>
+<text x="24.13" y="20.955" size="1.27" layer="97">41</text>
+<text x="24.13" y="18.415" size="1.27" layer="97">42</text>
+<text x="24.13" y="15.875" size="1.27" layer="97">43</text>
+<text x="24.13" y="13.335" size="1.27" layer="97">45</text>
+<text x="24.13" y="10.795" size="1.27" layer="97">46</text>
+<text x="24.13" y="8.255" size="1.27" layer="97">21</text>
+<text x="24.13" y="5.715" size="1.27" layer="97">22</text>
+<text x="24.13" y="3.175" size="1.27" layer="97">25</text>
+<text x="24.13" y="0.635" size="1.27" layer="97">26</text>
+<text x="24.13" y="-1.905" size="1.27" layer="97">27</text>
+<text x="24.13" y="-4.445" size="1.27" layer="97">28</text>
+<text x="24.13" y="-9.525" size="1.27" layer="97">5</text>
+<text x="24.13" y="-12.065" size="1.27" layer="97">6</text>
+<text x="24.13" y="-14.605" size="1.27" layer="97">44</text>
+<text x="24.13" y="-19.685" size="1.27" layer="97">7</text>
+<text x="-26.035" y="13.335" size="1.27" layer="97">29</text>
+<text x="-26.035" y="10.795" size="1.27" layer="97">30</text>
+<text x="-26.035" y="8.255" size="1.27" layer="97">31</text>
+<text x="-26.035" y="5.715" size="1.27" layer="97">32</text>
+<text x="-26.035" y="3.175" size="1.27" layer="97">33</text>
+<text x="-26.035" y="0.635" size="1.27" layer="97">34</text>
+<text x="-26.035" y="-1.905" size="1.27" layer="97">37</text>
+<text x="-26.035" y="-4.445" size="1.27" layer="97">38</text>
+<text x="-26.035" y="-24.765" size="1.27" layer="97">1</text>
+<text x="-26.035" y="-9.525" size="1.27" layer="97">2</text>
+<text x="-26.035" y="-12.065" size="1.27" layer="97">3</text>
+<text x="-26.035" y="-14.605" size="1.27" layer="97">4</text>
+<text x="-26.035" y="-32.385" size="1.27" layer="97">9</text>
+<text x="24.13" y="-34.925" size="1.27" layer="97">8</text>
+<text x="-26.035" y="-27.305" size="1.27" layer="97">24</text>
+<text x="-26.035" y="-34.925" size="1.27" layer="97">36</text>
+<text x="-26.035" y="-29.845" size="1.27" layer="97">48</text>
+<text x="24.13" y="-27.305" size="1.27" layer="97">23</text>
+<text x="24.13" y="-29.845" size="1.27" layer="97">35</text>
+<text x="24.13" y="-32.385" size="1.27" layer="97">47</text>
 </symbol>
 <symbol name="VLMS1300-GS08">
 <wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
@@ -952,7 +1000,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="REFDES" value="RefDes" constant="no"/>
 <attribute name="ROHS" value="Y" constant="no"/>
 <attribute name="TYPE" value="TYPE" constant="no"/>
-<attribute name="VALUE" value="Value" constant="no"/>
+<attribute name="VALUE" value="OPA188" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1943,6 +1991,11 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_RATING" value="50V"/>
 </part>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4318,24 +4371,24 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <attribute name="NAME" x="149.86" y="53.34" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="156.21" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="114.3" y="149.86" smashed="yes">
-<attribute name="NAME" x="110.49" y="151.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="110.49" y="146.558" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="114.935" y="157.48" smashed="yes">
+<attribute name="NAME" x="111.125" y="158.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="111.125" y="154.178" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="G$1" x="163.83" y="144.78" smashed="yes">
 <attribute name="NAME" x="140.97" y="181.61" size="1.27" layer="95"/>
 <attribute name="VALUE" x="140.97" y="104.14" size="1.27" layer="95"/>
 </instance>
-<instance part="D1" gate="G$1" x="104.14" y="149.86" smashed="yes" rot="MR180">
-<attribute name="NAME" x="99.568" y="153.416" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="91.948" y="156.845" size="1.778" layer="96" rot="MR180"/>
+<instance part="D1" gate="G$1" x="104.775" y="157.48" smashed="yes" rot="MR180">
+<attribute name="NAME" x="100.203" y="161.036" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="92.583" y="164.465" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="X1" gate="G$1" x="198.12" y="135.89" smashed="yes">
 <attribute name="NAME" x="204.47" y="138.684" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="217.17" y="132.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND1" gate="1" x="96.52" y="144.78" smashed="yes">
-<attribute name="VALUE" x="93.98" y="142.24" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="97.155" y="152.4" smashed="yes">
+<attribute name="VALUE" x="94.615" y="149.86" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="125.73" y="119.38" smashed="yes" rot="R90">
 <attribute name="VALUE" x="122.555" y="120.015" size="1.778" layer="96" rot="R180"/>
@@ -4453,6 +4506,21 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <instance part="SUPPLY2" gate="GND" x="45.72" y="101.6" smashed="yes">
 <attribute name="VALUE" x="43.815" y="98.425" size="1.778" layer="96"/>
 </instance>
+<instance part="GND9" gate="1" x="117.475" y="149.86" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.935" y="152.4" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND10" gate="1" x="129.54" y="162.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="127" y="165.1" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND11" gate="1" x="198.12" y="175.26" smashed="yes" rot="R90">
+<attribute name="VALUE" x="200.66" y="172.72" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND12" gate="1" x="198.12" y="157.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="200.66" y="154.94" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND13" gate="1" x="129.54" y="132.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="127" y="134.62" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4538,9 +4606,9 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="96.52" y1="147.32" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="97.155" y1="154.94" x2="97.155" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="149.86" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="97.155" y1="157.48" x2="99.695" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="EP"/>
@@ -4626,6 +4694,69 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 <wire x1="40.64" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 <junction x="45.72" y="111.76"/>
 </segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="PA11"/>
+<wire x1="120.015" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PA12"/>
+<wire x1="134.62" y1="149.86" x2="135.89" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="147.32" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="147.32" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
+<junction x="134.62" y="149.86"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="PA6"/>
+<wire x1="132.08" y1="162.56" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PA5"/>
+<wire x1="134.62" y1="162.56" x2="135.89" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="165.1" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
+<junction x="134.62" y="162.56"/>
+<pinref part="U1" gate="G$1" pin="PA7"/>
+<wire x1="134.62" y1="162.56" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="160.02" x2="135.89" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB1"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="191.77" y1="175.26" x2="193.04" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PB2"/>
+<wire x1="193.04" y1="175.26" x2="195.58" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="191.77" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="172.72" x2="193.04" y2="175.26" width="0.1524" layer="91"/>
+<junction x="193.04" y="175.26"/>
+<pinref part="U1" gate="G$1" pin="PB0"/>
+<wire x1="191.77" y1="177.8" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="177.8" x2="193.04" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="PB8"/>
+<wire x1="195.58" y1="157.48" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PB9"/>
+<wire x1="193.04" y1="157.48" x2="191.77" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="191.77" y1="154.94" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="154.94" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
+<junction x="193.04" y="157.48"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PA15"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="135.89" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="139.7" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="134.62" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="132.08" x2="132.08" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PC14-OSC32_IN"/>
+<wire x1="135.89" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="129.54" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<junction x="134.62" y="132.08"/>
+<pinref part="U1" gate="G$1" pin="PC15-OSC32_OUT"/>
+<wire x1="135.89" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PC13"/>
+<wire x1="135.89" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="134.62" y="134.62"/>
+</segment>
 </net>
 <net name="UART5_TX" class="0">
 <segment>
@@ -4701,16 +4832,16 @@ Source: http://eshop.phoenixcontact.com .. 1751251.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA11"/>
+<pinref part="U1" gate="G$1" pin="PA8"/>
+<wire x1="135.89" y1="157.48" x2="120.015" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="135.89" y1="149.86" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="109.22" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="109.855" y1="157.48" x2="107.315" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDDA" class="0">
